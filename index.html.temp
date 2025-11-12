@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>From Alex Studio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="music-card">
+      <h1>Teacher's Day Gift 20/11</h1>
+      <p class="subtitle">Dedicated to my programming teacher,</p>
+
+      <img
+        src="a2907359551c1d97251d63832f513222~tplv-tiktokx-cropcenter_1080_1080.jpeg"
+        alt="Tri ân thầy"
+        id="album-art"
+        class="spinning-disc"
+      />
+
+      <h2>You're the Guiding Star</h2>
+
+      <audio id="song" src="You’reTheGuidingStar.mp3"></audio>
+
+      <div class="progress-container" id="progress-container">
+        <div class="progress" id="progress"></div>
+      </div>
+
+      <div class="time-display">
+        <span id="current-time">0:00</span>
+        <span id="duration">0:00</span>
+      </div>
+
+      <div class="controls">
+        <button id="play-pause-btn" class="play">
+          <span>&#9658;</span>
+        </button>
+      </div>
+
+      <div class="lyrics">
+        <pre>
+I used to sit and dream, back in your class that day,
+You talked about the world, and showed another way.
+When my code went wrong, you’d smile and softly say,
+“Try again, you’ll find your light someday.”
+
+’Cause you’re the guiding star, shining through the night,
+A sunflower in my heart — always facing light.
+Time may fade away, but your words remain,
+You gave me strength to try again.
+            </pre
+        >
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
